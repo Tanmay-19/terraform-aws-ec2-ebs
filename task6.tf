@@ -1,7 +1,6 @@
 provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAW75OPNA53PXXXX"
-  secret_key = "WwDPOoeNzgQCRMWBo3GD4KlPxGsOVlucXlXXXX"
+  region  = "ap-south-1"
+  profile = "tanmay19"
 }
 
 resource "aws_key_pair" "kp1" {
